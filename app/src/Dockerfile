@@ -1,0 +1,1 @@
+FROM node:27.0.0-alpha.0.1.0-alpine3.24
