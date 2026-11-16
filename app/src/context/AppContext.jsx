@@ -47,8 +47,8 @@ export function AppProvider({ children }) {
       }
     }
 
-    fetchDevices();
     fetchCurrentDevice();
+    fetchDevices();
   }, []);
 
   return (

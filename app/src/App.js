@@ -40,7 +40,7 @@ function App() {
             <li
               key={i.InstanceID}
               className={
-                currentDevice.InstanceId === i.InstanceId
+                currentDevice?.InstanceId === i.InstanceId
                   ? "selected-device"
                   : ""
               }
